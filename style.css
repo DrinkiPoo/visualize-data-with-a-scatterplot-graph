@@ -1,0 +1,32 @@
+.dot {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.dot:hover {
+  fill: blue;
+}
+.rect {
+  height: 30px;
+  width: 80px;
+  background-color: aliceblue;
+}
+
+.legendText {
+  font-size: small;
+}
+
+#tooltip {
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 3px;
+  opacity: 0;
+  white-space: pre-wrap;
+  position: absolute;
+}
